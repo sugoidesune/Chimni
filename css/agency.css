@@ -3,6 +3,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -74,6 +75,8 @@ body {
     text-transform: uppercase; }
   #mainNav .navbar-brand {
     color: #fed136;
+    content: url("../img/chimnilogo500p.png");
+    max-width: 150px;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
@@ -88,7 +91,7 @@ body {
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #fed136; }
 
-@media (min-width: 992px) {
+@media (min-width: 200px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -128,10 +131,9 @@ header.masthead {
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -146,10 +148,9 @@ header.masthead {
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
-      font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
@@ -441,13 +442,19 @@ section#contact {
   background-position: center; }
   section#contact .section-heading {
     color: white; }
+  section#contact .form-shortcenter {
+    }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
     section#contact .form-group textarea {
       padding: 20px; }
     section#contact .form-group input.form-control {
-      height: auto; }
+      height: auto;
+      width: 50%;
+      display: inline-block;
+      text-align: center;
+     }
     section#contact .form-group textarea.form-control {
       height: 236px; }
   section#contact .form-control:focus {
