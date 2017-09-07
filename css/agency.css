@@ -122,14 +122,14 @@ header.masthead {
   background-image: url("../img/header-bg5.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center -5vh;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100% , }
   header.masthead .intro-text {
     padding-top: 50vh;
-    padding-bottom: 20vh; }
+    padding-bottom: 10vh; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       line-height: 22px;
