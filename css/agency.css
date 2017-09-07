@@ -122,7 +122,7 @@ header.masthead {
   background-image: url("../img/header-bg5.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center -5vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -146,7 +146,7 @@ header.masthead {
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 50vh;
-    padding-bottom: 15vh; }
+    padding-bottom: 20vh; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
       line-height: 40px;
@@ -226,8 +226,10 @@ header.masthead {
   margin: 0; }
 
 .portfolio-modal .modal-content {
+  background-color: #222222;
   min-height: 100%;
   padding: 100px 0;
+  color: white;
   text-align: center;
   border: none;
   border-radius: 0;
@@ -248,7 +250,9 @@ header.masthead {
     margin-top: 0;
     margin-bottom: 30px; }
   .portfolio-modal .modal-content img {
-    margin-bottom: 30px; }
+    margin-bottom: 50px;
+    max-width: 150px;
+    width: 20%; }
   .portfolio-modal .modal-content button {
     cursor: pointer; }
 
